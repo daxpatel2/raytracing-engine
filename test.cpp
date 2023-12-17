@@ -12,6 +12,8 @@ int main() {
     cout << "P3\n" << image_width << ' ' << image_height << "\n255\n";
 
     for (int j = 0; j < image_height; ++j) {
+        // Note: continuous flushing can cause performance issues
+        clog << "Scan lines remaining: " << (image_height - j) << flush;
         for (int i = 0; i < image_width; ++i) {
             //this is calculating the RGB values of the image
             double r = double(i) / (image_width - 1);
@@ -32,5 +34,4 @@ int main() {
             cout << ir << ' ' << ig << ' ' << ib << "\n";
         }
     }
-
 }
