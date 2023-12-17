@@ -1,0 +1,3 @@
+/Users/daxpatel/Desktop/RaytracingCpp/cmake-build-debug/CMakeFiles/RaytracingCpp.dir
+/Users/daxpatel/Desktop/RaytracingCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/daxpatel/Desktop/RaytracingCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
